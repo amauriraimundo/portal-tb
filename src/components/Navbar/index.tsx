@@ -21,6 +21,10 @@ export default function Navbar() {
       url: "/about",
       label: "Sobre",
     },
+    {
+      url: "/comunication",
+      label: "Comunicados",
+    },
   ];
 
   const pathname = usePathname();

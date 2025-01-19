@@ -23,10 +23,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <Navbar />
+
         <Card
           title="Ele parou o Brasil"
           description="Este é um card simples com título, descrição e botões de ação."
-          image="https://i.ytimg.com/vi/KRCH_lhI0IU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCZIg6erDll4kkAur7f9xpvqNMAyw"
+          image="/dealernet_ (1).svg"
           actions={
             <>
               <button
